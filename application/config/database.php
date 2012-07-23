@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
+$db['default']['hostname'] = 'flamestrap.db.8136164.hostedresource.com';
 $db['default']['username'] = 'flamestrap';
 $db['default']['password'] = 'fs-CIc11';
 $db['default']['database'] = 'flamestrap';
