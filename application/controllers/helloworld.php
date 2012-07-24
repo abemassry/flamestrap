@@ -2,7 +2,7 @@
     class Helloworld extends CI_Controller{  
         function index()  
         {  
-            $this->load->model('Helloworld_model');  
+            $this->load->model('helloworld_model');  
   
             $data['result'] = $this->helloworld_model->getData();  
             $data['page_title'] = "CI Hello World App!";  
