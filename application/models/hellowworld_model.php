@@ -14,9 +14,9 @@ class Helloworld_model extends Model {
               
             if ($query->num_rows() > 0)  
             {  
-                //show_error('Database is empty!');  
+                return $query->result(); 
             }else{  
-                return $query->result();  
+                //show_error('Database is empty!'); 
             }  
         }  
   
