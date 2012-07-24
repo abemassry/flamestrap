@@ -1,10 +1,10 @@
 <?php  
-class Helloworld_model extends Model {  
+class Helloworld_model extends CI_Model {  
   
     function Helloworld_model()  
     {  
         // Call the Model constructor  
-        parent::Model();  
+        parent::__construct();  
     }  
       
     function getData()  
